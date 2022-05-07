@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="163775" started-at="2022-03-31T19:43:45 IST" finished-at="2022-03-31T19:46:28 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@30a3107a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Command line test" duration-ms="163775" started-at="2022-03-31T19:43:45 IST" finished-at="2022-03-31T19:46:28 IST">
+      <class name="testRunners.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunners.TestRunner@30a3107a]" name="setUpClass" is-config="true" duration-ms="815" started-at="2022-03-31T19:43:45 IST" finished-at="2022-03-31T19:43:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4993febc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@30a3107a]" name="runScenario" duration-ms="57859" started-at="2022-03-31T19:43:45 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-31T19:44:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign in page valid conditions"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign-in page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@30a3107a]" name="runScenario" duration-ms="51489" started-at="2022-03-31T19:44:43 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-31T19:45:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign in page valid conditions"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign-in page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@30a3107a]" name="runScenario" duration-ms="53352" started-at="2022-03-31T19:45:35 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-03-31T19:46:28 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign in page valid conditions"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign-in page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.TestRunner@30a3107a]" name="tearDownClass" is-config="true" duration-ms="204" started-at="2022-03-31T19:46:28 IST" finished-at="2022-03-31T19:46:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunners.TestRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cucumber Suite" duration-ms="63905" started-at="2022-05-02T21:37:11 IST" finished-at="2022-05-02T21:38:15 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@2641e737]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Chrome Test" duration-ms="63905" started-at="2022-05-02T21:37:11 IST" finished-at="2022-05-02T21:38:15 IST">
+      <class name="testRunners.TestRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunners.TestRunner@2641e737]" name="setUpClass" is-config="true" duration-ms="1573" started-at="2022-05-02T21:37:11 IST" finished-at="2022-05-02T21:37:13 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@b0a1231]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@2641e737]" name="runScenario" duration-ms="21548" started-at="2022-05-02T21:37:13 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-02T21:37:35 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Checking contactus funtions funtionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[ContactInfo]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@2641e737]" name="runScenario" duration-ms="13951" started-at="2022-05-02T21:37:35 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-02T21:37:49 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign in page valid conditions"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign-in page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@2641e737]" name="runScenario" duration-ms="13019" started-at="2022-05-02T21:37:49 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-02T21:38:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign in page valid conditions"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign-in page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunners.TestRunner@2641e737]" name="runScenario" duration-ms="13567" started-at="2022-05-02T21:38:02 IST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-05-02T21:38:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sign in page valid conditions"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Sign-in page]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testRunners.TestRunner@2641e737]" name="tearDownClass" is-config="true" duration-ms="155" started-at="2022-05-02T21:38:15 IST" finished-at="2022-05-02T21:38:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testRunners.TestRunner -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- Cucumber Suite -->
+</testng-results>
